@@ -1,4 +1,4 @@
-function hp (){ 
+function hp{ 
     let day = document.getElementById("day").value;
     let dd = parseInt(day)
     let month = document.getElementById("month").value;
@@ -16,7 +16,7 @@ function hp (){
     let femaleNames=["Akosuo","Adwoa","Abenna","Akua","Yaa","Afua","Ama"];
     let daysOfTheWeek=["Sunday", "Monday" , "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday",]
 
-    if (year<1930) {
+    if (year<1900 || year>2100) {
         output.innerHTML = "Hey " + " please enter a valid year" 
     }
     else if (month <1 || month > 12) { 

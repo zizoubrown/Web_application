@@ -47,15 +47,19 @@
         <div class="row">
             <div class="col-md-6 offset-md-3">
                 <form method="POST">
-                    <label>Birthday</label>
-                    <input type="date" class="form-control form-control-lg" required><br>
+                    <label>Day</label>
+                    <input type="number" id="day" class="form-control form-control-lg" placeholder="Enter Day" required><br>
+                    <label>Month</label>
+                    <input type="number" id="month" class="form-control form-control-lg" placeholder="Enter Month" required><br>
+                    <label>Year</label>
+                    <input type="number" id="year" class="form-control form-control-lg" placeholder="Enter Year" required><br>
                     <label>Gender</label>
                     <select class="form-control form-control-lg">
-                        <option value="Male">Male</option>
-                        <option value="Female">Female</option>
+                        <option id="male" value="Male">Male</option>
+                        <option id="female" value="Female">Female</option>
                     </select><br>
-                    <a onclick="hp()"><button type="submit" class="btn btn-danger">Submit</button></a><br>
-                    <p id="name"></p>
+                    <a class="btn btn-info" onclick= "hp" >Submit</a><br>
+                    <p id="output"></p>
                 </form><br>
             </div>
         </div>
