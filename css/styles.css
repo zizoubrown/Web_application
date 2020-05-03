@@ -2,6 +2,7 @@ html,body{
     margin: 0;
     height: 100%;
 }
+
 header{
     background-image: url(/images/happy-b-day-balloon-wall-decors-1543762.jpg);
     background-position:center ;
@@ -10,10 +11,12 @@ header{
     background-attachment: fixed;
     height: 80vh;
 }
+
 nav>ul{
     display: flex;
     float: right;
 }
+
 button{
     padding: 0px 20px;
     background-color: brown;
@@ -21,9 +24,11 @@ button{
     border-radius: 50px;
     cursor: pointer;
 }
+
 button:hover{
     background-color: burlywood;
 }
+
 body{
     background: url("/images/yellow-balloons.jpg") rgba(0,0,0,0.5);
     background-repeat: no-repeat;
@@ -32,6 +37,7 @@ body{
     color: chartreuse;
     font-size: large;
 }
+
 li{
     list-style: none;
     padding: 5px;
