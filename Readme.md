@@ -1,9 +1,14 @@
-# Portfolio_Landing_Page
-#### My portfolio site,as on date 24/04/2020,
+# Web App
+
 #### By **Abdul Aziz Ali**
 
 ## Description
-This is a my portfolio site where it describes a litle about my background, education, job experience and my hobbies.
+-This project showcase the 'day of the week' a person is born and gives them an Akan name as to the exact day they were born on. Because there are Akan for each day, both male and female also. The only thing you have to do is write down your date of birth.
+
+## user requirements
+This website will require you to enter your date of birth.
+The user should choose their gender, male or female.
+Click on the submit button so that the web application can calculate and give an output.
 
 ## Setup/Installation Requirements
 To run the application in your terminal:
@@ -11,8 +16,14 @@ To run the application in your terminal:
 - cd into Directory  cd Portfolio_Landing_Page
 - Open the media.html on the browser
 
+## Tecnologies used
+HTML
+CSS
+Bootstrap
+Javascrript
+
 #### Link to the live site
-https://zizoubrown.github.io/Portfolio_Landing_Page/
+
 
 ### License
 This project is licensed under the terms of the MIT license
