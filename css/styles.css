@@ -4,7 +4,7 @@ html,body{
 }
 
 header{
-    background-image: url(/images/happy-b-day-balloon-wall-decors-1543762.jpg);
+    background-image: url(../images/happy-b-day-balloon-wall-decors-1543762.jpg);
     background-position:center ;
     background-size: cover;
     background-repeat: no-repeat;
@@ -30,7 +30,7 @@ button:hover{
 }
 
 body{
-    background: url(/images/yellow-balloons.jpg) rgba(0,0,0,0.5);
+    background: url(../images/yellow-balloons.jpg) rgba(0,0,0,0.5);
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: multiply;
