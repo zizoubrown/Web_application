@@ -6,6 +6,10 @@ html,body{
 header{
     background-image: url(/images/birthday-wallpaper.jpg);
     background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
+}
+li{
+    list-style: none;
 }
