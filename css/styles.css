@@ -1,6 +1,11 @@
-#container{
-    position: absolute;
-    left: 50vh;
-    top: 50vh;
-    transform: translate(-50%,-50%);
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+header{
+    background-image: url(/images/birthday-wallpaper.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
 }
