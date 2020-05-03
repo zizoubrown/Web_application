@@ -1,4 +1,4 @@
-function hp{ 
+function hp(){ 
     let day = document.getElementById("day").value;
     let dd = parseInt(day)
     let month = document.getElementById("month").value;
