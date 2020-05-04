@@ -3,12 +3,12 @@
 #### By **Abdul Aziz Ali**
 
 ## Description
--This project showcase the 'day of the week' a person is born and gives them an Akan name as to the exact day they were born on. Because there are Akan for each day, both male and female also. The only thing you have to do is write down your date of birth.
+This project showcase the 'day of the week' a person is born and gives them an Akan name as to the exact day they were born on. Because there are Akan for each day, both male and female also. The only thing you have to do is write down your date of birth.
 
 ## user requirements
-This website will require you to enter your date of birth.
-The user should choose their gender, male or female.
-Click on the submit button so that the web application can calculate and give an output.
+- This website will require you to enter your date of birth.
+- The user should choose their gender, male or female.
+- Click on the submit button so that the web application can calculate and give an output.
 
 ## Setup/Installation Requirements
 To run the application in your terminal:
@@ -17,10 +17,10 @@ To run the application in your terminal:
 - Open the media.html on the browser
 
 ## Tecnologies used
-HTML
-CSS
-Bootstrap
-Javascrript
+- HTML
+- CSS
+- Bootstrap
+- Javascrript
 
 #### Link to the live site
 https://zizoubrown.github.io/Web_application/
