@@ -1,20 +1,20 @@
 function hp(){ 
-    let day = document.getElementById("day").value;
-    let dd = parseInt(day)
-    let month = document.getElementById("month").value;
-    let mm = parseInt(month)
-    let year = document.getElementById('year').value;
-    let yy = parseInt(year)
+    var day = document.getElementById("day").value;
+    var dd = parseInt(day)
+    var month = document.getElementById("month").value;
+    var mm = parseInt(month)
+    var year = document.getElementById('year').value;
+    var yy = parseInt(year)
 
-    let weekDay = new Date(yy + "/" + mm + "/" + dd);
-    let output = document.getElementById("output")
-    let finalResults = weekDay.getDay()
+    var weekDay = new Date(yy + "/" + mm + "/" + dd);
+    var output = document.getElementById("output")
+    var finalResults = weekDay.getDay()
 
-    let male = document.getElementById('male');
-    let female = document.getElementById('female');
-    let maleNames=["kwasi","Kwadwo","kwabena","kwaku","yaw","kofi","kwame"];
-    let femaleNames=["Akosuo","Adwoa","Abenna","Akua","Yaa","Afua","Ama"];
-    let daysOfTheWeek=["Sunday", "Monday" , "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday",]
+    var male = document.getElementById('male');
+    var female = document.getElementById('female');
+    var maleNames=["kwasi","Kwadwo","kwabena","kwaku","yaw","kofi","kwame"];
+    var femaleNames=["Akosuo","Adwoa","Abenna","Akua","Yaa","Afua","Ama"];
+    var daysOfTheWeek=["Sunday", "Monday" , "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday",]
 
     if (year<1900 || year>2100) {
         output.innerHTML = "Hey " + " please enter a valid year" 
